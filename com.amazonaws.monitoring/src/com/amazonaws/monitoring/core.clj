@@ -1,0 +1,18 @@
+(ns com.amazonaws.monitoring.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[com.amazonaws.monitoring.ApiCallAttemptMonitoringEvent])
+(require '[com.amazonaws.monitoring.ApiCallMonitoringEvent])
+(require '[com.amazonaws.monitoring.ApiMonitoringEvent])
+(require '[com.amazonaws.monitoring.CsmConfiguration$Builder])
+(require '[com.amazonaws.monitoring.CsmConfiguration])
+(require '[com.amazonaws.monitoring.CsmConfigurationProvider])
+(require '[com.amazonaws.monitoring.CsmConfigurationProviderChain])
+(require '[com.amazonaws.monitoring.DefaultCsmConfigurationProviderChain])
+(require '[com.amazonaws.monitoring.EnvironmentVariableCsmConfigurationProvider])
+(require '[com.amazonaws.monitoring.MonitoringEvent])
+(require '[com.amazonaws.monitoring.MonitoringListener])
+(require '[com.amazonaws.monitoring.ProfileCsmConfigurationProvider])
+(require '[com.amazonaws.monitoring.StaticCsmConfigurationProvider])
+(require '[com.amazonaws.monitoring.SystemPropertyCsmConfigurationProvider])

@@ -1,0 +1,17 @@
+(ns com.amazonaws.event.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[com.amazonaws.event.DeliveryMode$Check])
+(require '[com.amazonaws.event.DeliveryMode])
+(require '[com.amazonaws.event.ProgressEvent])
+(require '[com.amazonaws.event.ProgressEventFilter])
+(require '[com.amazonaws.event.ProgressEventType])
+(require '[com.amazonaws.event.ProgressInputStream])
+(require '[com.amazonaws.event.ProgressListener$ExceptionReporter])
+(require '[com.amazonaws.event.ProgressListener$NoOpProgressListener])
+(require '[com.amazonaws.event.ProgressListener])
+(require '[com.amazonaws.event.ProgressListenerChain])
+(require '[com.amazonaws.event.ProgressTracker])
+(require '[com.amazonaws.event.SDKProgressPublisher])
+(require '[com.amazonaws.event.SyncProgressListener])

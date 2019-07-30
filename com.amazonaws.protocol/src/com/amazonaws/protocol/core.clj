@@ -1,0 +1,15 @@
+(ns com.amazonaws.protocol.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[com.amazonaws.protocol.DefaultValueSupplier])
+(require '[com.amazonaws.protocol.MarshallLocation])
+(require '[com.amazonaws.protocol.MarshallingInfo$Builder])
+(require '[com.amazonaws.protocol.MarshallingInfo])
+(require '[com.amazonaws.protocol.MarshallingType])
+(require '[com.amazonaws.protocol.OperationInfo$Builder])
+(require '[com.amazonaws.protocol.OperationInfo])
+(require '[com.amazonaws.protocol.Protocol])
+(require '[com.amazonaws.protocol.ProtocolMarshaller])
+(require '[com.amazonaws.protocol.ProtocolRequestMarshaller])
+(require '[com.amazonaws.protocol.StructuredPojo])

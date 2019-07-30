@@ -1,0 +1,16 @@
+(ns com.amazonaws.services.rds.core
+  (:refer-clojure :only [require comment defn ->])
+  (:import ))
+
+(require '[com.amazonaws.services.rds.AbstractAmazonRDS])
+(require '[com.amazonaws.services.rds.AbstractAmazonRDSAsync])
+(require '[com.amazonaws.services.rds.AmazonRDS])
+(require '[com.amazonaws.services.rds.AmazonRDSAsync])
+(require '[com.amazonaws.services.rds.AmazonRDSAsyncClient])
+(require '[com.amazonaws.services.rds.AmazonRDSAsyncClientBuilder])
+(require '[com.amazonaws.services.rds.AmazonRDSClient])
+(require '[com.amazonaws.services.rds.AmazonRDSClientBuilder])
+(require '[com.amazonaws.services.rds.CopyDBClusterSnapshotPresignHandler])
+(require '[com.amazonaws.services.rds.CopyDBSnapshotPresignHandler])
+(require '[com.amazonaws.services.rds.CreateDBClusterPresignHandler])
+(require '[com.amazonaws.services.rds.CreateDBInstanceReadReplicaPresignHandler])
